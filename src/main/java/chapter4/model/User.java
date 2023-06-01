@@ -1,4 +1,4 @@
-package model;
+package chapter4.model;
 
 public class User {
 

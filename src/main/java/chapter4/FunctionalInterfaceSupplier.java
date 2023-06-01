@@ -1,3 +1,5 @@
+package chapter4;
+
 import java.util.function.Supplier;
 
 public class FunctionalInterfaceSupplier {
