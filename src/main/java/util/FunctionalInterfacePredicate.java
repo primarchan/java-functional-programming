@@ -11,10 +11,11 @@ public class FunctionalInterfacePredicate {
         Predicate<Integer> isPositive = x -> x > 0;
         // System.out.println(isPositive.test(10));
 
-        List<Integer> inputs = Arrays.asList(10, -5, 4, -2, 0);
+        List<Integer> inputs = Arrays.asList(10, -5, 4, -2, 0, 3);
         System.out.println("Positive numbers : " + filter(inputs, isPositive));
         System.out.println("Non-positive numbers : " + filter(inputs, isPositive.negate()));
         System.out.println("Non-negative numbers : " + filter(inputs, isPositive.or(x -> x == 0)));
+        System.out.println("Positive even numbers : " + filter(inputs, isPositive.and(x -> x % 2 == 0 )));
     }
 
     public static <T> List<T> filter(List<T> inputs, Predicate<T> condition) {
