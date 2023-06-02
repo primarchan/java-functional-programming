@@ -14,3 +14,21 @@
   2) `ObjectName::instanceMethodName` : 선언된 객체의 instance method 를 지정할 때
   3) `ClassName::instanceMethodName` : 객체의 instance method 를 지정할 때
   4) `ClassName::new` : 클래스의 constructor 를 지정할 때
+
+### Stream
+
+### Optional
+- NPE - NullPointerException
+  - Null 상태인 오브젝트를 참조할 때 발생
+  - Runtime error 이기 때문에 실행 전까지는 발생 여부를 알기 쉽지 않음
+  - "[Null pointer 를 발명한 것]은 나의 10억 불 짜리 실수였다. (I call it billion-dollar mistake.)" - 토니 호어(Tony Hoare), 2009년 한 강연에서
+- Optional 만드는 법
+  - of - Null 이 아닌 오브젝트를 이용해 Optional 을 만들 때
+  - Empty - 빈 Optional 을 만들 때
+  - ofNullable - Null 인지 아닌지 알지 못하는 오브젝트로 Optional 을 만들 때
+```java
+public static <T> Optional<T> of(T value)
+public static <T> Optional<T> empty()
+public static <T> Optional<T> ofNullable(T value)
+```
+
