@@ -1,6 +1,7 @@
 package part7.model;
 
 import java.util.List;
+import java.util.Optional;
 
 public class User {
     private int id;
@@ -27,8 +28,8 @@ public class User {
         return this;
     }
 
-    public String getEmailAddress() {
-        return emailAddress;
+    public Optional<String> getEmailAddress() {
+        return Optional.ofNullable(emailAddress);
     }
 
     public User setEmailAddress(String emailAddress) {
