@@ -41,6 +41,7 @@ public class Section3 {
                 .setEmailAddress("charile@gmail.com");
 
         List<User> users = Arrays.asList(user1, user2, user3);
+
         List<String> emailAddresses = users.stream()
                 .map(User::getEmailAddress)
                 .collect(Collectors.toList());
