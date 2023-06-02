@@ -1,4 +1,4 @@
-package chapter5.model;
+package part5.chapter4.model;
 
 public class User {
 

@@ -1,7 +1,7 @@
-package chapter3;
+package part5.chapter3;
 
-import chapter4.util.Adder;
-import chapter4.util.TriFunction;
+import part5.chapter4.util.Adder;
+import part5.chapter4.util.TriFunction;
 
 import java.util.function.BiFunction;
 import java.util.function.Function;

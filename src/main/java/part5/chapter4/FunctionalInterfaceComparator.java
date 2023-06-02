@@ -1,6 +1,6 @@
-package chapter4;
+package part5.chapter4;
 
-import chapter4.model.User;
+import part5.chapter4.model.User;
 
 import java.util.ArrayList;
 import java.util.Collections;

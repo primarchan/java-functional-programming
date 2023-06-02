@@ -1,4 +1,4 @@
-package chapter4.util;
+package part5.chapter4.util;
 
 @FunctionalInterface
 public interface TriFunction<T, U, V, R> {

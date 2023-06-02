@@ -1,4 +1,4 @@
-package chapter5;
+package part5.chapter5;
 
 import java.util.function.BiFunction;
 import java.util.function.Function;

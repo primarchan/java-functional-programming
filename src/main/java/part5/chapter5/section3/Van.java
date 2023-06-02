@@ -1,4 +1,4 @@
-package chapter5.section3;
+package part5.chapter5.section3;
 
 public class Van extends Car {
 

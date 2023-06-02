@@ -1,10 +1,10 @@
-package chapter5;
+package part5.chapter5;
 
-import chapter5.model.User;
-import chapter5.section3.Car;
-import chapter5.section3.Sedan;
-import chapter5.section3.Suv;
-import chapter5.section3.Van;
+import part5.chapter5.model.User;
+import part5.chapter5.section3.Car;
+import part5.chapter5.section3.Sedan;
+import part5.chapter5.section3.Suv;
+import part5.chapter5.section3.Van;
 
 import java.util.ArrayList;
 import java.util.HashMap;
